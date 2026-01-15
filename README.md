@@ -51,3 +51,10 @@ The focus is not only on automation itself, but on designing a reproducible and 
 ---
 
 ## Project Structure
+
+emails-automation/
+├── data/
+│ └── contacts.xlsx
+├── codigo.py
+├── README.md
+└── env/
