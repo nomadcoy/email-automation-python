@@ -30,7 +30,6 @@ Atenciosamente,
 Chico Alves
 Sociólogo | Analista de Dados
 Consultor em Políticas Públicas e SUAS
-
 Belo Horizonte – MG
 f.neto.alves@hotmail.com
 (31) 97145-0972
