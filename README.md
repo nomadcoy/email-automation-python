@@ -1,60 +1,27 @@
-# Email Automation with Python
+# Bot de Envio de Emails em Massa - Consultoria SUAS
 
-## Overview
-This project automates the process of sending emails using Python based on a structured dataset.
-It was developed as a portfolio project to demonstrate automation, data handling, and practical scripting for real-world tasks.
+Este projeto é um script Python para enviar emails em massa para uma lista de contatos, com anexo, usando a conta Gmail via SMTP com senha de app.  
 
-The focus is not only on automation itself, but on designing a reproducible and data-driven workflow.
+É ideal para quem quer automatizar o envio de propostas, newsletters ou comunicações profissionais personalizadas.
 
 ---
 
-## Technologies
-- Python
-- pandas
-- pyautogui
-- openpyxl
-- PowerShell
-- Virtual Environment (venv)
+## Funcionalidades
+
+- Envia emails personalizados para cada destinatário listado em uma planilha Excel (.xlsx).  
+- Anexa um arquivo PDF (ex: proposta técnica).  
+- Envia em lotes para evitar bloqueios do Gmail (limite recomendado: 200 emails/dia).  
+- Intervalos configuráveis entre envios e entre lotes.  
+- Registra erros de envio no console para acompanhamento.
 
 ---
 
-## How the Project Works
-1. A dataset (Excel or CSV) contains the email recipients and relevant fields used for personalization.
-2. The script reads and processes the dataset using pandas.
-3. For each record, the script automates the email composition and sending process based on a predefined template.
-4. Emails are sent individually, allowing controlled and personalized communication at scale.
+## Requisitos
 
----
+- Python 3.7+  
+- Bibliotecas Python:
+  - pandas  
+  - openpyxl  
+- Conta Gmail com [Verificação em duas etapas](https://myaccount.google.com/security) ativada  
+- Senha de app gerada para uso no script (ver [Como gerar a senha de app](#como-gerar-a-senha-de-app))
 
-## Technical Considerations
-- This project uses GUI automation with `pyautogui`.
-- While the script is running:
-  - The computer should not be used for other tasks.
-  - Screen resolution and interface layout must remain unchanged.
-- This approach was chosen intentionally to explore automation under constrained environments.
-
----
-
-## Limitations
-- GUI-based automation is sensitive to interface changes.
-- Accented characters may require specific handling depending on the environment.
-- The script is not intended for large-scale or background execution.
-
----
-
-## Possible Improvements
-- Replace GUI automation with SMTP or email APIs.
-- Add structured logging and exception handling.
-- Implement validation for email addresses.
-- Introduce rate control and execution reports.
-
----
-
-## Project Structure
-
-emails-automation/
-├── data/
-│ └── contacts.xlsx
-├── codigo.py
-├── README.md
-└── env/
