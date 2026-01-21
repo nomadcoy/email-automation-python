@@ -1,4 +1,4 @@
-# Bot de Envio de Emails em Massa - Consultoria SUAS
+# Bot de Envio de Emails em Massa
 
 Este projeto é um script Python para enviar emails em massa para uma lista de contatos, com anexo, usando a conta Gmail via SMTP com senha de app.  
 
