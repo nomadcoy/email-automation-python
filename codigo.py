@@ -25,24 +25,9 @@ def enviar_email(destinatario):
 
     corpo_email = """Prezados(as),
 
-Meu nome é Chico Alves e atuo como consultor técnico especializado no Sistema Único de Assistência Social (SUAS), com experiência em Vigilância Socioassistencial, análise de dados, trabalho social com famílias, gestão territorial e desenvolvimento de sistemas de informação aplicados à política de assistência social.
-
-Encaminho este contato para apresentar uma proposta de consultoria técnica personalizada, voltada ao aprimoramento da Vigilância Socioassistencial e à qualificação do trabalho social, integrando diagnóstico territorial, construção de indicadores, fortalecimento da gestão e desenvolvimento de um sistema informatizado de atendimento e acompanhamento da Rede SUAS municipal.
-
-A consultoria é desenvolvida em modalidade híbrida, com acompanhamento técnico contínuo, produção de relatórios periódicos e adaptação às especificidades do território e da rede local.
-
-Anexo a este e-mail segue a proposta técnica detalhada, contendo objetivos, metodologia, etapas e cronograma.
-
-Fico à disposição para esclarecimentos ou para agendarmos uma breve conversa.
+sua mensagem no corpo do e-mail.
 
 Atenciosamente,
-
-Chico Alves
-Sociólogo | Analista de Dados
-Consultor em Políticas Públicas e SUAS
-Belo Horizonte – MG
-f.neto.alves@hotmail.com
-(31) 97145-0972
 """
     msg.set_content(corpo_email)
 
