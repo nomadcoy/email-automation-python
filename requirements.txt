@@ -1,4 +1,2 @@
 pandas
-pyautogui
-pyperclip
 openpyxl
