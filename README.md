@@ -23,5 +23,5 @@ Este projeto é um script Python para enviar emails em massa para uma lista de c
   - pandas  
   - openpyxl  
 - Conta Gmail com [Verificação em duas etapas](https://myaccount.google.com/security) ativada  
-- Senha de app gerada para uso no script (ver [Como gerar a senha de app](#como-gerar-a-senha-de-app))
+- Senha de app gerada para uso no script
 
