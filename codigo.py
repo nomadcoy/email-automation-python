@@ -19,7 +19,7 @@ tabela = pd.read_excel("sua_base_de_dados.xlsx")
 
 def enviar_email(destinatario):
     msg = EmailMessage()
-    msg['Subject'] = "Consultoria Técnica no SUAS"
+    msg['Subject'] = "SEU ASSUNTO"
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = destinatario
 
